@@ -27,7 +27,7 @@ namespace App3
         public MainPage()
         {
             this.InitializeComponent();
-            this.DataContext = new MainPageViewModel();
+            //--Was for testing purpose-- this.DataContext = new MainPageViewModel();
             
            
         }

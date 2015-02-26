@@ -29,7 +29,7 @@ namespace App3
 
             this.NavigationCacheMode = NavigationCacheMode.Required;
 
-            this.DataContext = new MainPageViewModel();
+           //--Was for testing purpose-- this.DataContext = new MainPageViewModel();
         }
 
         /// <summary>
