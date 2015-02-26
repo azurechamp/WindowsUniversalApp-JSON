@@ -16,7 +16,6 @@
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)Models\RootObject.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Models\Student.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\MainPageViewModel.cs" />
   </ItemGroup>
 </Project>
