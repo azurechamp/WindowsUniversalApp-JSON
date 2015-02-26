@@ -8,7 +8,7 @@
     x:Class="App3.MainPage"
     mc:Ignorable="d" d:DataContext="{d:DesignInstance ViewModels:MainPageViewModel, IsDesignTimeCreatable=True}">
 	<Page.Resources>
-		<DataTemplate x:Key="StudentTemplate">
+		<!--<DataTemplate x:Key="StudentTemplate">
 			<Grid Height="110" Width="480" Margin="10" >
 				<Grid.ColumnDefinitions>
 					<ColumnDefinition Width="Auto"/>
@@ -22,7 +22,7 @@
 					<TextBlock Text="{Binding Name}" Style="{StaticResource CaptionTextBlockStyle}" TextWrapping="NoWrap"/>
 				</StackPanel>
 			</Grid>
-		</DataTemplate>
+		</DataTemplate>-->
 		<DataTemplate x:Key="LatestNewTemplate">
 			<Grid Height="110" Width="480" Margin="10" >
 				<Grid.ColumnDefinitions>

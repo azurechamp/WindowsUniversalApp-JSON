@@ -9,7 +9,7 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" d:DataContext="{d:DesignInstance ViewModels:MainPageViewModel, IsDesignTimeCreatable=True}">
 	<Page.Resources>
-		<DataTemplate x:Key="StudentTemplate">
+		<!--<DataTemplate x:Key="StudentTemplate">
 			<Grid>
 				<Grid.ColumnDefinitions>
 					<ColumnDefinition Width="Auto"/>
@@ -23,7 +23,7 @@
 					<TextBlock Text="{Binding Name}" Style="{ThemeResource ListViewItemSubheaderTextBlockStyle}"/>
 				</StackPanel>
 			</Grid>
-		</DataTemplate>
+		</DataTemplate>-->
 		<DataTemplate x:Key="LatestNewTemplate">
 			<Grid>
 				<Grid.ColumnDefinitions>
